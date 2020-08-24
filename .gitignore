@@ -1,0 +1,15 @@
+# Scala
+*.class
+*.log
+
+# Vim swap files
+*.swp
+
+**/.metals/
+.idea/
+.vscode/
+**/.bloop
+dist/*
+target/
+boot/
+**/target
