@@ -9,7 +9,6 @@ java {
     sourceCompatibility = JavaVersion.VERSION_14
     targetCompatibility = JavaVersion.VERSION_14
 }
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
@@ -27,18 +26,18 @@ ext {
 }
 
 dependencies {
-    implementation "org.mapstruct:mapstruct:$mapstructV"
-    implementation "org.projectlombok:lombok:$lombokV"
+    implementation "org.mapstruct:mapstruct:\$mapstructV"
+    implementation "org.projectlombok:lombok:\$lombokV"
     implementation 'com.google.guava:guava:29.0-jre'
     compileOnly 'org.projectlombok:lombok'
-    annotationProcessor "org.mapstruct:mapstruct-processor:$mapstructV"
-    annotationProcessor "org.projectlombok:lombok:$lombokV"
+    annotationProcessor "org.mapstruct:mapstruct-processor:\$mapstructV"
+    annotationProcessor "org.projectlombok:lombok:\$lombokV"
 
-    testCompile "org.junit.jupiter:junit-jupiter:$junitV"
+    testCompile "org.junit.jupiter:junit-jupiter:\$junitV"
     testCompile 'org.testcontainers:junit-jupiter:1.14.3'
 
     testCompileOnly 'org.projectlombok:lombok'
-    testAnnotationProcessor "org.projectlombok:lombok:$lombokV"
+    testAnnotationProcessor "org.projectlombok:lombok:\$lombokV"
 }
 
 test {
