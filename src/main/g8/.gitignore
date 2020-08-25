@@ -17,9 +17,12 @@ classes/
 target/
 
 .classpath
-.project
 
-# IDEA artifacts and output dirs
+# IDE Files
+.project
+.metals
+.vscode
+
 *.iml
 *.ipr
 *.iws
