@@ -30,3 +30,5 @@ target/
 out
 test-output
 .gradletasknamecache
+
+stale_outputs_checked

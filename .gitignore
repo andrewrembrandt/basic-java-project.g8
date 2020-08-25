@@ -13,3 +13,5 @@ dist/*
 target/
 boot/
 **/target
+
+stale_outputs_checked
